@@ -1,0 +1,4 @@
+[submodule "winnfsd"]
+	path = winnfsd
+	url = ../winnfsd
+	branch = master
