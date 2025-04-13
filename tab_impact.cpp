@@ -9,7 +9,7 @@
 #include "base/user/user/multiple_document_template.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -48,7 +48,7 @@ namespace app_simple_http_file_server
       m_papp->m_ptabimpact = this;
 
       set_tab("Menu", MENU_IMPACT);
-      set_tab("app_simple_http_file_server", MAIN_IMPACT);
+      set_tab("app_simple_winnfsd_desktop", MAIN_IMPACT);
 
       set_current_tab_by_id(MAIN_IMPACT);
 
@@ -140,7 +140,7 @@ namespace app_simple_http_file_server
       case MAIN_IMPACT:
       {
 
-         ::user::impact::create_impact < app_simple_http_file_server::main_impact >(pimpactdata);
+         ::user::impact::create_impact < app_simple_winnfsd_desktop::main_impact >(pimpactdata);
 
       }
       break;
@@ -171,7 +171,7 @@ namespace app_simple_http_file_server
    //}
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

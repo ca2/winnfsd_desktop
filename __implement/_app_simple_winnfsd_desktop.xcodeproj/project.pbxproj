@@ -14,8 +14,8 @@
 		9A8C816B2783F856000C8587 /* _matter.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9A8C816A2783F856000C8587 /* _matter.zip */; };
 		9A8C819027844A9E000C8587 /* libcrypto_openssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A8C818827844A71000C8587 /* libcrypto_openssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9A8C819227844AA7000C8587 /* libfolder_zip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A8C818E27844A7C000C8587 /* libfolder_zip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9A8C819327844B17000C8587 /* libapp_simple_http_file_server.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9902B927532B0F00B13F01 /* libapp_simple_http_file_server.dylib */; };
-		9A9902BE27532B7F00B13F01 /* libapp_simple_http_file_server.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A9902B927532B0F00B13F01 /* libapp_simple_http_file_server.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9A8C819327844B17000C8587 /* libapp_simple_winnfsd_desktop.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9902B927532B0F00B13F01 /* libapp_simple_winnfsd_desktop.dylib */; };
+		9A9902BE27532B7F00B13F01 /* libapp_simple_winnfsd_desktop.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A9902B927532B0F00B13F01 /* libapp_simple_winnfsd_desktop.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9A9904232753303E00B13F01 /* libcrypto.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A99042027532EFC00B13F01 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9A9904242753304000B13F01 /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A99041F27532EFC00B13F01 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9A9A193A2AFC379700FA9BEB /* libdarwin.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9A9A19382AFC379700FA9BEB /* libdarwin.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -185,17 +185,17 @@
 		};
 		9A9902B827532B0F00B13F01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AED78C22751989E00397A57 /* app_simple_http_file_server.xcodeproj */;
+			containerPortal = 9AED78C22751989E00397A57 /* app_simple_winnfsd_desktop.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9A1D5D3E2751A81D003D9B5F;
-			remoteInfo = app_simple_http_file_server;
+			remoteInfo = app_simple_winnfsd_desktop;
 		};
 		9A9902BB27532B6000B13F01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9AED78C22751989E00397A57 /* app_simple_http_file_server.xcodeproj */;
+			containerPortal = 9AED78C22751989E00397A57 /* app_simple_winnfsd_desktop.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A1D5D3D2751A81D003D9B5F;
-			remoteInfo = app_simple_http_file_server;
+			remoteInfo = app_simple_winnfsd_desktop;
 		};
 		9A9A192A2AFC378400FA9BEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -337,7 +337,7 @@
 				9ABDE8212C76CEBE00619F93 /* libnano_idn_libidn.dylib in Embed Libraries */,
 				9A9E4AA62751A3B20094A04C /* libapex_posix.dylib in Embed Libraries */,
 				9ABDE81E2C76CEA200619F93 /* libarchive.dylib in Embed Libraries */,
-				9A9902BE27532B7F00B13F01 /* libapp_simple_http_file_server.dylib in Embed Libraries */,
+				9A9902BE27532B7F00B13F01 /* libapp_simple_winnfsd_desktop.dylib in Embed Libraries */,
 				9A9E4AC02751A3B30094A04C /* libexperience_core.dylib in Embed Libraries */,
 				9A9904232753303E00B13F01 /* libcrypto.dylib in Embed Libraries */,
 				9A9904242753304000B13F01 /* libssl.dylib in Embed Libraries */,
@@ -361,8 +361,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		070B8EEA1B6E53F900D26137 /* _app_simple_http_file_server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _app_simple_http_file_server.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		070B8EFD1B6E53FA00D26137 /* _app_simple_http_file_server_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _app_simple_http_file_server_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B8EEA1B6E53F900D26137 /* _app_simple_winnfsd_desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _app_simple_winnfsd_desktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070B8EFD1B6E53FA00D26137 /* _app_simple_winnfsd_desktop_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _app_simple_winnfsd_desktop_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A00E5602661209B00517464 /* draw2d_quartz2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = draw2d_quartz2d.xcodeproj; path = "../../../../operating_system/operating_system-apple/draw2d_quartz2d/draw2d_quartz2d.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9A00E5A22661209D00517464 /* node_macos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = node_macos.xcodeproj; path = "../../../../operating_system/operating_system-macos/node_macos/node_macos.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9A00E5A82661209D00517464 /* write_text_quartz2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = write_text_quartz2d.xcodeproj; path = "../../../../operating_system/operating_system-apple/write_text_quartz2d/write_text_quartz2d.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -410,7 +410,7 @@
 		9ADB6CD128D1475E00608B22 /* database_sqlite3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = database_sqlite3.xcodeproj; path = ../../../app/database_sqlite3/database_sqlite3.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9ADB6CE228D1479200608B22 /* imaging_coreimage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = imaging_coreimage.xcodeproj; path = "../../../../operating_system/operating_system-apple/imaging_coreimage/imaging_coreimage.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		9AE5CC8E22CBECAE00EDEAD1 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
-		9AED78C22751989E00397A57 /* app_simple_http_file_server.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app_simple_http_file_server.xcodeproj; path = ../app_simple_http_file_server.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AED78C22751989E00397A57 /* app_simple_winnfsd_desktop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app_simple_winnfsd_desktop.xcodeproj; path = ../app_simple_winnfsd_desktop.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,7 +418,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8C819327844B17000C8587 /* libapp_simple_http_file_server.dylib in Frameworks */,
+				9A8C819327844B17000C8587 /* libapp_simple_winnfsd_desktop.dylib in Frameworks */,
 				9A9E4A972751A3B20094A04C /* libacme.dylib in Frameworks */,
 				9A9E4AAB2751A3B20094A04C /* libaqua.dylib in Frameworks */,
 				9A9E4AB72751A3B30094A04C /* libbase.dylib in Frameworks */,
@@ -441,7 +441,7 @@
 		070B8EE11B6E53F900D26137 = {
 			isa = PBXGroup;
 			children = (
-				9AED78C22751989E00397A57 /* app_simple_http_file_server.xcodeproj */,
+				9AED78C22751989E00397A57 /* app_simple_winnfsd_desktop.xcodeproj */,
 				9A8C818327844A71000C8587 /* crypto_openssl.xcodeproj */,
 				9ADB6CD128D1475E00608B22 /* database_sqlite3.xcodeproj */,
 				9A00E5602661209B00517464 /* draw2d_quartz2d.xcodeproj */,
@@ -463,8 +463,8 @@
 		070B8EEB1B6E53F900D26137 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				070B8EEA1B6E53F900D26137 /* _app_simple_http_file_server.app */,
-				070B8EFD1B6E53FA00D26137 /* _app_simple_http_file_server_Tests.xctest */,
+				070B8EEA1B6E53F900D26137 /* _app_simple_winnfsd_desktop.app */,
+				070B8EFD1B6E53FA00D26137 /* _app_simple_winnfsd_desktop_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,7 +634,7 @@
 		9AED78C32751989E00397A57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A9902B927532B0F00B13F01 /* libapp_simple_http_file_server.dylib */,
+				9A9902B927532B0F00B13F01 /* libapp_simple_winnfsd_desktop.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -654,9 +654,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		070B8EE91B6E53F900D26137 /* _app_simple_http_file_server */ = {
+		070B8EE91B6E53F900D26137 /* _app_simple_winnfsd_desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 070B8F071B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_http_file_server" */;
+			buildConfigurationList = 070B8F071B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_winnfsd_desktop" */;
 			buildPhases = (
 				9A581CA22D8F6EBD001987ED /* ShellScript */,
 				070B8EE61B6E53F900D26137 /* Sources */,
@@ -680,14 +680,14 @@
 				9AA802792665752000A6B449 /* PBXTargetDependency */,
 				9AA8027B2665752000A6B449 /* PBXTargetDependency */,
 			);
-			name = _app_simple_http_file_server;
+			name = _app_simple_winnfsd_desktop;
 			productName = "Hello Multiverse!!";
-			productReference = 070B8EEA1B6E53F900D26137 /* _app_simple_http_file_server.app */;
+			productReference = 070B8EEA1B6E53F900D26137 /* _app_simple_winnfsd_desktop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		070B8EFC1B6E53FA00D26137 /* _app_simple_http_file_server_Tests */ = {
+		070B8EFC1B6E53FA00D26137 /* _app_simple_winnfsd_desktop_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 070B8F0A1B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_http_file_server_Tests" */;
+			buildConfigurationList = 070B8F0A1B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_winnfsd_desktop_Tests" */;
 			buildPhases = (
 				070B8EF91B6E53FA00D26137 /* Sources */,
 				070B8EFA1B6E53FA00D26137 /* Frameworks */,
@@ -698,9 +698,9 @@
 			dependencies = (
 				070B8EFF1B6E53FA00D26137 /* PBXTargetDependency */,
 			);
-			name = _app_simple_http_file_server_Tests;
+			name = _app_simple_winnfsd_desktop_Tests;
 			productName = "Hello Multiverse!!Tests";
-			productReference = 070B8EFD1B6E53FA00D26137 /* _app_simple_http_file_server_Tests.xctest */;
+			productReference = 070B8EFD1B6E53FA00D26137 /* _app_simple_winnfsd_desktop_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -724,7 +724,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 070B8EE51B6E53F900D26137 /* Build configuration list for PBXProject "_app_simple_http_file_server" */;
+			buildConfigurationList = 070B8EE51B6E53F900D26137 /* Build configuration list for PBXProject "_app_simple_winnfsd_desktop" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -738,7 +738,7 @@
 			projectReferences = (
 				{
 					ProductGroup = 9AED78C32751989E00397A57 /* Products */;
-					ProjectRef = 9AED78C22751989E00397A57 /* app_simple_http_file_server.xcodeproj */;
+					ProjectRef = 9AED78C22751989E00397A57 /* app_simple_winnfsd_desktop.xcodeproj */;
 				},
 				{
 					ProductGroup = 9A8C818427844A71000C8587 /* Products */;
@@ -783,8 +783,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				070B8EE91B6E53F900D26137 /* _app_simple_http_file_server */,
-				070B8EFC1B6E53FA00D26137 /* _app_simple_http_file_server_Tests */,
+				070B8EE91B6E53F900D26137 /* _app_simple_winnfsd_desktop */,
+				070B8EFC1B6E53FA00D26137 /* _app_simple_winnfsd_desktop_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -888,10 +888,10 @@
 			remoteRef = 9A8F4D332A26D49200097EE1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A9902B927532B0F00B13F01 /* libapp_simple_http_file_server.dylib */ = {
+		9A9902B927532B0F00B13F01 /* libapp_simple_winnfsd_desktop.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			path = libapp_simple_http_file_server.dylib;
+			path = libapp_simple_winnfsd_desktop.dylib;
 			remoteRef = 9A9902B827532B0F00B13F01 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1043,7 +1043,7 @@
 /* Begin PBXTargetDependency section */
 		070B8EFF1B6E53FA00D26137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 070B8EE91B6E53F900D26137 /* _app_simple_http_file_server */;
+			target = 070B8EE91B6E53F900D26137 /* _app_simple_winnfsd_desktop */;
 			targetProxy = 070B8EFE1B6E53FA00D26137 /* PBXContainerItemProxy */;
 		};
 		9A41D7BA28D05DB40008DB81 /* PBXTargetDependency */ = {
@@ -1063,7 +1063,7 @@
 		};
 		9A9902BC27532B6000B13F01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = app_simple_http_file_server;
+			name = app_simple_winnfsd_desktop;
 			targetProxy = 9A9902BB27532B6000B13F01 /* PBXContainerItemProxy */;
 		};
 		9AA802752665752000A6B449 /* PBXTargetDependency */ = {
@@ -1349,7 +1349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		070B8EE51B6E53F900D26137 /* Build configuration list for PBXProject "_app_simple_http_file_server" */ = {
+		070B8EE51B6E53F900D26137 /* Build configuration list for PBXProject "_app_simple_winnfsd_desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				070B8F051B6E53FA00D26137 /* Debug */,
@@ -1358,7 +1358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		070B8F071B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_http_file_server" */ = {
+		070B8F071B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_winnfsd_desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				070B8F081B6E53FA00D26137 /* Debug */,
@@ -1367,7 +1367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		070B8F0A1B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_http_file_server_Tests" */ = {
+		070B8F0A1B6E53FA00D26137 /* Build configuration list for PBXNativeTarget "_app_simple_winnfsd_desktop_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				070B8F0B1B6E53FA00D26137 /* Debug */,

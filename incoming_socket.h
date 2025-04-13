@@ -6,7 +6,7 @@
 #include "apex/networking/sockets/httpd/incoming_socket.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -14,8 +14,8 @@ namespace app_simple_http_file_server
    class service;
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER incoming_socket :
-      virtual public app_consumer < ::app_simple_http_file_server::application, ::httpd::incoming_socket >
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP incoming_socket :
+      virtual public app_consumer < ::app_simple_winnfsd_desktop::application, ::httpd::incoming_socket >
    {
    public:
 
@@ -32,6 +32,6 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

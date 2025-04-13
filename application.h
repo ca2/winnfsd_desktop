@@ -4,11 +4,11 @@
 #include "base/platform/application.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER application :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP application :
       virtual public ::base::application
    {
    public:
@@ -65,7 +65,7 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

@@ -4,7 +4,7 @@
 #include "apex/networking/sockets/httpd/incoming_socket_thread.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -12,7 +12,7 @@ namespace app_simple_http_file_server
    class socket;
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER incoming_socket_thread :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP incoming_socket_thread :
       virtual public ::httpd::incoming_socket_thread
    {
    public:
@@ -33,7 +33,7 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

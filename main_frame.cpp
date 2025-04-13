@@ -2,7 +2,7 @@
 #include "main_frame.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -72,7 +72,7 @@ namespace app_simple_http_file_server
    //}
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

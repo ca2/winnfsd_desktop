@@ -8,11 +8,11 @@
 #include "core/user/user/list2.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER command_list2 :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP command_list2 :
       virtual public ::app_consumer < application, ::user::show < ::user::list2 > >
    {
    public:
@@ -62,6 +62,6 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

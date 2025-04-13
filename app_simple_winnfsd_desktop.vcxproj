@@ -38,7 +38,7 @@
     <ProjectGuid>{FA9AA1BD-B3BE-4B1F-9E41-BBF43CCEB766}</ProjectGuid>
     <RootNamespace>app-simple</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>app_simple_http_file_server</ProjectName>
+    <ProjectName>app_simple_winnfsd_desktop</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -816,6 +816,20 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="main_frame.cpp" />
+    <ClCompile Include="winnfsd\src\conv.cpp" />
+    <ClCompile Include="winnfsd\src\DatagramSocket.cpp" />
+    <ClCompile Include="winnfsd\src\FileTable.cpp" />
+    <ClCompile Include="winnfsd\src\FileTree.cpp" />
+    <ClCompile Include="winnfsd\src\MountProg.cpp" />
+    <ClCompile Include="winnfsd\src\NFS3Prog.cpp" />
+    <ClCompile Include="winnfsd\src\NFSProg.cpp" />
+    <ClCompile Include="winnfsd\src\PortmapProg.cpp" />
+    <ClCompile Include="winnfsd\src\RPCProg.cpp" />
+    <ClCompile Include="winnfsd\src\RPCServer.cpp" />
+    <ClCompile Include="winnfsd\src\ServerSocket.cpp" />
+    <ClCompile Include="winnfsd\src\Socket.cpp" />
+    <ClCompile Include="winnfsd\src\SocketStream.cpp" />
+    <ClCompile Include="winnfsd\src\winnfsd.cpp" />
     <ClCompile Include="_.cpp" />
     <ClCompile Include="_factory.cpp" />
   </ItemGroup>
@@ -830,6 +844,24 @@
     <ClInclude Include="frame.h" />
     <ClInclude Include="main_impact.h" />
     <ClInclude Include="socket.h" />
+    <ClInclude Include="winnfsd\src\conv.h" />
+    <ClInclude Include="winnfsd\src\DatagramSocket.h" />
+    <ClInclude Include="winnfsd\src\FileTable.h" />
+    <ClInclude Include="winnfsd\src\FileTree.h" />
+    <ClInclude Include="winnfsd\src\InputStream.h" />
+    <ClInclude Include="winnfsd\src\MountProg.h" />
+    <ClInclude Include="winnfsd\src\NFS3Prog.h" />
+    <ClInclude Include="winnfsd\src\NFSProg.h" />
+    <ClInclude Include="winnfsd\src\OutputStream.h" />
+    <ClInclude Include="winnfsd\src\PortmapProg.h" />
+    <ClInclude Include="winnfsd\src\resource.h" />
+    <ClInclude Include="winnfsd\src\RPCProg.h" />
+    <ClInclude Include="winnfsd\src\RPCServer.h" />
+    <ClInclude Include="winnfsd\src\ServerSocket.h" />
+    <ClInclude Include="winnfsd\src\Socket.h" />
+    <ClInclude Include="winnfsd\src\SocketListener.h" />
+    <ClInclude Include="winnfsd\src\SocketStream.h" />
+    <ClInclude Include="winnfsd\src\tree.hh" />
     <ClInclude Include="_.h" />
     <ClInclude Include="main_frame.h" />
     <ClInclude Include="tab_impact.h" />

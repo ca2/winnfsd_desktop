@@ -4,10 +4,10 @@
 
 #include "acme/handler/item.h"
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER command :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP command :
       virtual public ::item
    {
    public:
@@ -29,4 +29,4 @@ namespace app_simple_http_file_server
 
    };
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop

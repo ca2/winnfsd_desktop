@@ -6,11 +6,11 @@
 #include "base/user/user/document.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER document :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP document :
       public ::user::document
    {
    public:
@@ -45,7 +45,7 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

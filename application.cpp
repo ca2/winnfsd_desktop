@@ -16,15 +16,15 @@
 #include "base/user/user/single_document_template.h"
 
 
-__IMPLEMENT_APPLICATION_RELEASE_TIME(app_simple_http_file_server);
-IMPLEMENT_APPLICATION_FACTORY(app_simple_http_file_server);
+__IMPLEMENT_APPLICATION_RELEASE_TIME(app_simple_winnfsd_desktop);
+IMPLEMENT_APPLICATION_FACTORY(app_simple_winnfsd_desktop);
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   // __IMPLEMENT_APPLICATION_RELEASE_TIME1(app_simple_http_file_server));
+   // __IMPLEMENT_APPLICATION_RELEASE_TIME1(app_simple_winnfsd_desktop));
 
 
    application::application()
@@ -62,19 +62,19 @@ namespace app_simple_http_file_server
    void application::init_instance()
    {
 
-      factory()->add_factory_item <::app_simple_http_file_server::document >();
-      factory()->add_factory_item <::app_simple_http_file_server::frame >();
-      factory()->add_factory_item <::app_simple_http_file_server::main_frame >();
-      factory()->add_factory_item <::app_simple_http_file_server::tab_impact >();
-      factory()->add_factory_item <::app_simple_http_file_server::main_document >();
-      factory()->add_factory_item <::app_simple_http_file_server::edit_impact >();
-      factory()->add_factory_item <::app_simple_http_file_server::main_impact >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::document >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::frame >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::main_frame >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::tab_impact >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::main_document >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::edit_impact >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::main_impact >();
 
-      factory()->add_factory_item <::app_simple_http_file_server::document >();
-      factory()->add_factory_item <::app_simple_http_file_server::impact >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::document >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::impact >();
 
-      factory()->add_factory_item <::app_simple_http_file_server::incoming_socket >();
-      factory()->add_factory_item <::app_simple_http_file_server::socket >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::incoming_socket >();
+      factory()->add_factory_item <::app_simple_winnfsd_desktop::socket >();
 
       //default_toggle_check_handling("simple_checkbox");
 
@@ -90,8 +90,8 @@ namespace app_simple_http_file_server
       //}
       add_impact_system("main", __initialize_new ::user::single_document_template(
                                "main",
-                               ::type < ::app_simple_http_file_server::main_document >(),
-                               ::type < ::app_simple_http_file_server::main_frame >(),
+                               ::type < ::app_simple_winnfsd_desktop::main_document >(),
+                               ::type < ::app_simple_winnfsd_desktop::main_frame >(),
                                get_pane_impact_type()));
 
       //m_ptemplateSimpleDrawingMain = pdoctemplate;
@@ -231,7 +231,7 @@ namespace app_simple_http_file_server
    //}
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

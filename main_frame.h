@@ -4,11 +4,11 @@
 #include "base/user/simple/main_frame.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER main_frame :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP main_frame :
       virtual public simple_main_frame
    {
    public:
@@ -33,7 +33,7 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

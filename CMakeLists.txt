@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(app_simple_http_file_server CXX)
+project(app_simple_winnfsd_desktop CXX)
 
 
 

@@ -209,7 +209,7 @@
     <ProjectReference Include="..\..\..\app\core\core.vcxproj">
       <Project>{29c1eb5b-060e-4021-ae12-d1bcfb1b1359}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\app_simple_http_file_server.vcxproj">
+    <ProjectReference Include="..\app_simple_winnfsd_desktop.vcxproj">
       <Project>{fa9aa1bd-b3be-4b1f-9e41-bbf43cceb766}</Project>
     </ProjectReference>
   </ItemGroup>

@@ -6,7 +6,7 @@
 #include "acme/filesystem/filesystem/file_context.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -32,7 +32,7 @@ namespace app_simple_http_file_server
       ::httpd::incoming_socket_thread::initialize(pparticle);
 
 
-      m_typeIncomingSocket = ::type < ::app_simple_http_file_server::incoming_socket >();
+      m_typeIncomingSocket = ::type < ::app_simple_winnfsd_desktop::incoming_socket >();
 
 
       m_strIp = "127.0.0.1";
@@ -148,6 +148,6 @@ namespace app_simple_http_file_server
    //}
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

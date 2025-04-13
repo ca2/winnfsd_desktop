@@ -4,14 +4,14 @@
 #include "base/_.h"
 
 
-#if defined(_app_simple_http_file_server_project)
-#define CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER  CLASS_DECL_EXPORT
+#if defined(_app_simple_winnfsd_desktop_project)
+#define CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP  CLASS_DECL_EXPORT
 #else
-#define CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER  CLASS_DECL_IMPORT
+#define CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP  CLASS_DECL_IMPORT
 #endif
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
    
@@ -29,7 +29,7 @@ namespace app_simple_http_file_server
    class document;
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 
 

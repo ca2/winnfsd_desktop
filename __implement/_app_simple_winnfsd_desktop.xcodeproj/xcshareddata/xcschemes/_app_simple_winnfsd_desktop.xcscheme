@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-               BuildableName = "_app_simple_http_file_server.app"
-               BlueprintName = "_app_simple_http_file_server"
-               ReferencedContainer = "container:_app_simple_http_file_server.xcodeproj">
+               BuildableName = "_app_simple_winnfsd_desktop.app"
+               BlueprintName = "_app_simple_winnfsd_desktop"
+               ReferencedContainer = "container:_app_simple_winnfsd_desktop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-            BuildableName = "_app_simple_http_file_server.app"
-            BlueprintName = "_app_simple_http_file_server"
-            ReferencedContainer = "container:_app_simple_http_file_server.xcodeproj">
+            BuildableName = "_app_simple_winnfsd_desktop.app"
+            BlueprintName = "_app_simple_winnfsd_desktop"
+            ReferencedContainer = "container:_app_simple_winnfsd_desktop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "070B8EE91B6E53F900D26137"
-            BuildableName = "_app_simple_http_file_server.app"
-            BlueprintName = "_app_simple_http_file_server"
-            ReferencedContainer = "container:_app_simple_http_file_server.xcodeproj">
+            BuildableName = "_app_simple_winnfsd_desktop.app"
+            BlueprintName = "_app_simple_winnfsd_desktop"
+            ReferencedContainer = "container:_app_simple_winnfsd_desktop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

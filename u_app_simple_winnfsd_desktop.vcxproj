@@ -141,7 +141,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4DCB944E-269C-4580-BCBD-4C6911BB3F23}</ProjectGuid>
     <Keyword>DynamicLibrary</Keyword>
-    <ProjectName>app_simple_http_file_server</ProjectName>
+    <ProjectName>app_simple_winnfsd_desktop</ProjectName>
     <RootNamespace>app-simple</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>

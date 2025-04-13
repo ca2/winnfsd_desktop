@@ -5,7 +5,7 @@
 #include "apex/networking/netserver/socket.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
@@ -13,8 +13,8 @@ namespace app_simple_http_file_server
    class service;
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER socket :
-      virtual public app_consumer < ::app_simple_http_file_server::application,  ::netserver::socket >
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP socket :
+      virtual public app_consumer < ::app_simple_winnfsd_desktop::application,  ::netserver::socket >
    {
    public:
 
@@ -31,6 +31,6 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

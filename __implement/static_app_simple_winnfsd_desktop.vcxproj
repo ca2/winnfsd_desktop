@@ -327,7 +327,7 @@
     <ProjectReference Include="..\..\..\app\networking_bsd\networking_bsd.vcxproj">
       <Project>{46d7d9c9-7b52-4dc6-af84-46a5e3cdc43d}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\app_simple_http_file_server.vcxproj">
+    <ProjectReference Include="..\app_simple_winnfsd_desktop.vcxproj">
       <Project>{7fad8d16-71f1-47dd-9505-9c258543e7f3}</Project>
     </ProjectReference>
   </ItemGroup>

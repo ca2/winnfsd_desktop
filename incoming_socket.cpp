@@ -14,14 +14,14 @@
 #include "bred/id.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
    incoming_socket::incoming_socket()
    {
       
-      m_typeAttendSocket = ::type<::app_simple_http_file_server::socket >();
+      m_typeAttendSocket = ::type<::app_simple_winnfsd_desktop::socket >();
 
    }
 
@@ -353,6 +353,6 @@ namespace app_simple_http_file_server
    //}
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

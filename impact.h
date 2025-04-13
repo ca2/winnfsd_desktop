@@ -7,11 +7,11 @@
 #include "base/user/user/impact.h"
 
 
-namespace app_simple_http_file_server
+namespace app_simple_winnfsd_desktop
 {
 
 
-   class CLASS_DECL_APP_SIMPLE_HTTP_FILE_SERVER impact :
+   class CLASS_DECL_APP_SIMPLE_WINNFSD_DESKTOP impact :
       virtual public ::app_consumer < application, ::user::impact >
    {
    public:
@@ -59,6 +59,6 @@ namespace app_simple_http_file_server
    };
 
 
-} // namespace app_simple_http_file_server
+} // namespace app_simple_winnfsd_desktop
 
 

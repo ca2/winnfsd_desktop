@@ -74,7 +74,7 @@
 
 /* Begin PBXFileReference section */
 		9A1CEC31285F939B001ED6E1 /* _factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _factory.cpp; sourceTree = "<group>"; };
-		9A1D5D3E2751A81D003D9B5F /* libapp_simple_http_file_server.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libapp_simple_http_file_server.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1D5D3E2751A81D003D9B5F /* libapp_simple_winnfsd_desktop.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libapp_simple_winnfsd_desktop.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A327CA12C7436A200EB43C5 /* impact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impact.h; sourceTree = "<group>"; };
 		9A327CA22C7436A200EB43C5 /* edit_impact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = edit_impact.cpp; sourceTree = "<group>"; };
 		9A327CA32C7436A200EB43C5 /* impact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impact.cpp; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		9A1D5D3F2751A81D003D9B5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A1D5D3E2751A81D003D9B5F /* libapp_simple_http_file_server.dylib */,
+				9A1D5D3E2751A81D003D9B5F /* libapp_simple_winnfsd_desktop.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,9 +249,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A1D5D3D2751A81D003D9B5F /* app_simple_http_file_server */ = {
+		9A1D5D3D2751A81D003D9B5F /* app_simple_winnfsd_desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A1D5D422751A81D003D9B5F /* Build configuration list for PBXNativeTarget "app_simple_http_file_server" */;
+			buildConfigurationList = 9A1D5D422751A81D003D9B5F /* Build configuration list for PBXNativeTarget "app_simple_winnfsd_desktop" */;
 			buildPhases = (
 				9A1D5D3A2751A81D003D9B5F /* Headers */,
 				9A1D5D3B2751A81D003D9B5F /* Sources */,
@@ -262,9 +262,9 @@
 			dependencies = (
 				9ABDE8372C76CFE100619F93 /* PBXTargetDependency */,
 			);
-			name = app_simple_http_file_server;
-			productName = app_simple_http_file_server;
-			productReference = 9A1D5D3E2751A81D003D9B5F /* libapp_simple_http_file_server.dylib */;
+			name = app_simple_winnfsd_desktop;
+			productName = app_simple_winnfsd_desktop;
+			productReference = 9A1D5D3E2751A81D003D9B5F /* libapp_simple_winnfsd_desktop.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A1D5D392751A81D003D9B5F /* Build configuration list for PBXProject "app_simple_http_file_server" */;
+			buildConfigurationList = 9A1D5D392751A81D003D9B5F /* Build configuration list for PBXProject "app_simple_winnfsd_desktop" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -300,7 +300,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				9A1D5D3D2751A81D003D9B5F /* app_simple_http_file_server */,
+				9A1D5D3D2751A81D003D9B5F /* app_simple_winnfsd_desktop */,
 			);
 		};
 /* End PBXProject section */
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A1D5D392751A81D003D9B5F /* Build configuration list for PBXProject "app_simple_http_file_server" */ = {
+		9A1D5D392751A81D003D9B5F /* Build configuration list for PBXProject "app_simple_winnfsd_desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1D5D402751A81D003D9B5F /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A1D5D422751A81D003D9B5F /* Build configuration list for PBXNativeTarget "app_simple_http_file_server" */ = {
+		9A1D5D422751A81D003D9B5F /* Build configuration list for PBXNativeTarget "app_simple_winnfsd_desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A1D5D432751A81D003D9B5F /* Debug */,
